@@ -57,13 +57,15 @@ student-crud-app/
 ### **Step 1: Install dependencies**
 ```bash
 cd student-backend
+pip install djangorestframework djangorestframework-simplejwt django-cors-headers
+
 pip install -r requirements.txt
 
 python manage.py makemigrations
 python manage.py migrate
 
-python manage.py loaddata api/fixtures/admin.json
-python manage.py loaddata api/fixtures/students.json
+python3 manage.py loaddata api/fixtures/admin.json
+python3 manage.py loaddata api/fixtures/students.json
 
 Admin login credentials:
 
@@ -91,3 +93,4 @@ Technologies Used
 Backend: Django, Django REST Framework, JWT Auth
 
 Frontend: React, Material UI, Axios
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material axios

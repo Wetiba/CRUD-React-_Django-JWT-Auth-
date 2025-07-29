@@ -1,0 +1,24 @@
+[
+  {
+    "model": "api.student",
+    "pk": 1,
+    "fields": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "course": "Django",
+      "phone": "0700000001",
+      "enrollment_date": "2025-01-05"
+    }
+  },
+  {
+    "model": "api.student",
+    "pk": 2,
+    "fields": {
+      "name": "Mary Jane",
+      "email": "mary@example.com",
+      "course": "React",
+      "phone": "0700000002",
+      "enrollment_date": "2025-01-06"
+    }
+  }
+]
